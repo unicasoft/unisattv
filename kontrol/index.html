@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UniSat TV Kontrol Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light dark; --text: #1d2433; --muted: #5a6478; --line: #d8dde8; --page: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --text: #e6e9f0; --muted: #a6afc2; --line: #343b4d; --page: #141824; } }
+  body { margin: 0; background: var(--page); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .date { color: var(--muted); margin: 0 0 20px; }
+  li { margin: 4px 0; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<!-- UniSat TV Kontrol (com.unitv.kontrol, Google Play) gizlilik politikası. Yayımlandığı adres Play Console'a verilir:
+     https://unicasoft.github.io/unisattv/kontrol/ (depo github.com/unicasoft/unisattv, dosya kontrol/index.html). -->
+<h1>UniSat TV Kontrol Gizlilik Politikası</h1>
+<p class="date">Son güncelleme: 19.11.2026</p>
+
+<p>UniSat TV Kontrol, UniSat TV kurulu Android TV / Google TV kutunuzu aynı Wi-Fi ağındaki telefonunuzdan
+yönetmenizi sağlayan bir telefon uygulamasıdır. Bu sayfa, uygulamanın hangi bilgileri kullandığını,
+nerede sakladığını ve kimlerle paylaştığını anlatır.</p>
+
+<h2>Kısaca</h2>
+<ul>
+<li>Hesap açılmaz, kayıt istenmez.</li>
+<li>Reklam, analiz ya da kullanıcı izleme aracı yoktur.</li>
+<li>Kişisel bilgileriniz geliştiriciye gönderilmez, satılmaz, başkasıyla paylaşılmaz.</li>
+<li>Uygulama internetteki bir sunucuya bilgi göndermez; yalnız kendi ağınızdaki kutunuzla konuşur.</li>
+</ul>
+
+<h2>Kutunuzla bağlantı</h2>
+<p>Uygulama kutunuza, kutunun kablosuz hata ayıklama (adb) bağlantısı üzerinden, yalnız aynı yerel ağda bağlanır.
+Bu bağlantıyı siz açarsınız ve telefonunuzu kutuda gösterilen kodla siz eşlersiniz. Kutuya gönderilen komutlar
+(kumanda tuşları, ekran görüntüsü, uygulama yönetimi, USB izni gibi) yalnız sizin seçtiğiniz işler içindir.</p>
+
+<h2>Telefon etkinleştirme</h2>
+<p>Bir kutuda en çok üç telefon kullanılabilir. Telefonunuzu etkinleştirdiğinizde kutudaki UniSat TV'ye şunlar verilir:</p>
+<ul>
+<li>Telefonunuzun Android kimliğinden ve kutunun seri numarasından üretilen, geri çevrilemeyen bir özet (SHA-256).
+Kimliğin kendisi telefondan çıkmaz.</li>
+<li>Telefonunuzun adı (ör. model adı), kutudaki eşleme listesinde görmeniz için.</li>
+</ul>
+<p>Bu bilgiler yalnız kutunuzda, UniSat TV'nin içinde saklanır; geliştiriciye ya da başka bir yere gönderilmez.
+Kutuda UniSat TV › Ayarlar › Sanal Kumanda › Eşleme Listesi'nden istediğiniz telefonu silebilirsiniz.</p>
+
+<h2>Telefonda saklanan bilgiler</h2>
+<ul>
+<li>Bağlandığınız kutuların adı ve ağ adresi, uygulama ayarları, oyun kolu düzeni.</li>
+<li>Kutudan aldığınız ekran görüntüleri, ekran kayıtları ve test kayıtları: yalnız siz "Telefona kaydet"
+dediğinizde telefonunuzun Resimler, Filmler ya da İndirilenler klasörüne.</li>
+<li>Kutudaki uygulamaların adları ve simgeleri (liste hızlı açılsın diye uygulamanın kendi klasöründe).</li>
+</ul>
+<p>Uygulamanın Android yedeklemesi kapalıdır. Bu bilgiler, kaydettiğiniz dosyalar dışında, uygulama
+kaldırıldığında silinir.</p>
+
+<h2>İzinler ve ne için kullanıldıkları</h2>
+<ul>
+<li><b>Ağ ve Wi-Fi:</b> aynı ağdaki kutuları bulmak (mDNS) ve kutuya bağlanmak için.</li>
+<li><b>Sesli komut:</b> kumandadaki mikrofon tuşuna bastığınızda telefonunuzun konuşma tanıma hizmeti açılır.
+Ses bu hizmete (genellikle Google) gider; uygulama yalnız çıkan yazıyı alır ve kutudaki UniSat TV'ye verir,
+sesi kaydetmez ve saklamaz.</li>
+<li><b>Depolama (yalnız Android 9 ve öncesi):</b> kaydettiğiniz ekran görüntüsü ve kayıtları ortak klasörlere yazmak için.</li>
+</ul>
+
+<h2>Çocuklar</h2>
+<p>UniSat TV Kontrol çocuklara yönelik değildir ve çocuklardan bilerek bilgi toplamaz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika değişirse yeni hali bu sayfada, güncelleme tarihiyle yayımlanır.</p>
+
+<h2>İletişim</h2>
+<p>Geliştiren: Kazım Çetin<br>
+E-posta: <a href="mailto:unicasoft@hotmail.com">unicasoft@hotmail.com</a></p>
+</main>
+</body>
+</html>
